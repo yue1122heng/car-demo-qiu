@@ -1,0 +1,42 @@
+.item {
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 20rpx;
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left .title {
+  font-size: 40rpx;
+}
+
+.left .amount {
+  color: #999;
+}
+
+.amount .price {
+  font-size: 36rpx;
+  color: #ff5e6a;
+  margin-right: 40rpx;
+}
+
+.amount .award {
+  color: #ff5e6a;
+}
+
+.left .gift {
+  color: #999;
+}
+
+.item .right button {
+  font-size: 28rpx;
+  width: 200rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+  border: 1rpx solid blue;
+  background-color: blue;
+  color: #fff;
+}

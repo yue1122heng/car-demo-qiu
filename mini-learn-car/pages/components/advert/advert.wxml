@@ -1,0 +1,5 @@
+<view class="ad">
+  <navigator url="../invite/invite" open-type="switchTab">
+    <image src="../../../images/ad.png"></image>
+  </navigator>
+</view>

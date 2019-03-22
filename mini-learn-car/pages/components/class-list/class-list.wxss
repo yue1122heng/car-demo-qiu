@@ -1,0 +1,80 @@
+.class-list {
+  background-color: #fff;
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+}
+
+.class-list>.title {
+  font-size: 36rpx;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.class-list .list {
+  overflow: hidden;
+}
+
+.list .item {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  border-bottom: 1rpx solid #ccc;
+  padding: 20rpx 0;
+}
+
+.item .left {
+  width: 178rpx;
+  overflow: hidden;
+  margin-right: 10rpx;
+}
+
+.item .left image {
+  width: 178rpx;
+  height: 132rpx;
+}
+
+.item .center {
+  margin-right: 10rpx;
+  width: calc(100% - 178rpx - 100rpx - 20rpx);
+}
+
+.center .title {
+  font-size: 32rpx;
+}
+
+.center .content {
+  font-size: 24rpx;
+  color: #999;
+}
+
+.center .tip {
+  font-size: 20rpx;
+  color: #2c8afd;
+  display: flex;
+}
+
+.center .tip view {
+  margin-right: 5rpx;
+  border: 1px solid #2c8afd;
+  border-radius: 8rpx;
+  padding: 2rpx 6rpx;
+}
+
+.item .right {
+  font-size: 28rpx;
+  width: 100rpx;
+  color: #ff5e6a;
+  text-align: right;
+}
+
+.class-list .more {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 20rpx 0;
+}
+
+.more image {
+  width: 32rpx;
+  height: 32rpx;
+}

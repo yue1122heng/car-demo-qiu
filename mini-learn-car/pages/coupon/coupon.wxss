@@ -1,0 +1,10 @@
+.coupon{
+  min-height: 90vh;
+  text-align: center;
+}
+
+.coupon image{
+  width: 260rpx;
+  height: 260rpx;
+  margin-top: 300rpx;
+}

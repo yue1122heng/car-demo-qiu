@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/invite/invite",
+    "pages/coupon/coupon",
+    "pages/map/map",
+    "pages/invitation/invitation"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "华中驾校",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 60
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "selectedColor": "#2C8AFD",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/invite/invite",
+        "text": "邀请学员",
+        "iconPath": "images/car.png",
+        "selectedIconPath": "images/car-selected.png"
+      },
+      {
+        "pagePath": "pages/coupon/coupon",
+        "text": "学车优惠券",
+        "iconPath": "images/coupon.png",
+        "selectedIconPath": "images/coupon-selected.png"
+      }
+    ]
+  }
+}

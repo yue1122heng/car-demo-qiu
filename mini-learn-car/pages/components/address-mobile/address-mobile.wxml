@@ -1,0 +1,14 @@
+<view class="address-mobile">
+  <view class="left">
+    <view class="title">华中驾校</view>
+    <view class="address">
+      <navigator url="../map/map">
+        <image src="../../../images/loc.png" class="loc"></image>
+        郑州市二七区工人路与丹青路交叉口西北角40米
+      </navigator>
+    </view>
+  </view>
+  <view class="right" bindtap="makePhone">
+    <image src="../../../images/mobile.png" class="mobile"></image>
+  </view>
+</view>

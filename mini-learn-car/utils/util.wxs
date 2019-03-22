@@ -1,0 +1,12 @@
+function currency(value){
+  if(!value) return '';
+  if(typeof value === 'number'){
+    return "￥" + value;
+  } else {
+    return value;
+  }
+}
+
+module.exports = {
+  currency: currency
+}

@@ -1,0 +1,6 @@
+<view class="page">
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="17" 
+  markers="{{markers}}"
+  enable-zoom="true"
+  show-location></map>
+</view>

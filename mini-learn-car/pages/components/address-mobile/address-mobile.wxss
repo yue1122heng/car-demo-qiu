@@ -1,0 +1,40 @@
+.address-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx 20rpx;
+  background-color: #fff;
+}
+
+.address-mobile .left {
+  width: 90%;
+}
+
+.left .title {
+  font-size: 36rpx;
+}
+
+.left .address {
+  font-size: 28rpx;
+  color: #999;
+}
+
+.address .loc {
+  width: 32rpx;
+  height: 32rpx;
+  position: relative;
+  top: 6rpx;
+}
+
+.address-mobile .right {
+  width: 10%;
+  text-align: right;
+}
+
+.right .mobile {
+  width: 50rpx;
+  height: 50rpx;
+  position: relative;
+  top: 4rpx;
+}
+

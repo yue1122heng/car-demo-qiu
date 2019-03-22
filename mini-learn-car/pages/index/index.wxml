@@ -1,0 +1,12 @@
+<view class="page">
+  <car-swiper></car-swiper>
+
+  <address-mobile></address-mobile>
+
+  <advert></advert>
+
+  <class-list></class-list>
+
+  <school-info></school-info>
+  
+</view>

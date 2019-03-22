@@ -1,0 +1,34 @@
+.school-info{
+  background-color: #fff;
+  padding: 0 20rpx;
+  margin-top: 20rpx;
+}
+
+.school-info .title{
+  font-size: 36rpx;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #ccc;
+}
+
+.school-info .content{
+  font-size: 32rpx;
+  color: #999;
+  text-indent: 2em;
+  padding: 20rpx 0;
+  overflow: hidden;
+}
+
+.school-info .more{
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 80rpx;
+  height: 80rpx;
+}
+
+.more image{
+  width: 32rpx;
+  height: 32rpx;
+  position: relative;
+  top: 6rpx;
+}
+

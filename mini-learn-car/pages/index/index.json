@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "car-swiper": "../components/car-swiper/car-swiper",
+    "address-mobile": "../components/address-mobile/address-mobile",
+    "advert": "../components/advert/advert",
+    "class-list": "../components/class-list/class-list",
+    "school-info": "../components/school-info/school-info"
+  }
+}

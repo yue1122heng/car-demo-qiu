@@ -1,0 +1,28 @@
+<view class="class-list">
+  <view class="title">精选班型</view>
+  <view class="list" style="height: {{listHeight}}">
+    <view class="item" wx:for="{{classes}}" wx:for-index="index" wx:for-item="cls" wx:key="index">
+      <view class="left">
+        <image src="{{cls.logo}}"></image>
+      </view>
+      <view class="center">
+        <view class="title">{{cls.title}}</view>
+        <view class="content">
+          <view wx:for="{{cls.subs}}" wx:for-index="m" wx:for-item="sub" wx:key="m">{{sub}}</view>
+        </view>
+        <view class="tip">
+          <view wx:for="{{cls.tips}}" wx:for-index="n" wx:for-item="tip" wx:key="n">{{tip}}</view>
+        </view>
+      </view>
+      <view class="right">
+        <view>￥{{cls.price}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="more" bindtap="toggle">
+    <view>查看全部班型</view>
+    <view>
+      <image src="{{icon}}"></image>
+    </view>
+  </view>
+</view>

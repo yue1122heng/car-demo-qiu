@@ -1,0 +1,5 @@
+<view class="page">
+  <view class="coupon">
+    <image src="../../images/empty.png"></image>
+  </view>
+</view>
